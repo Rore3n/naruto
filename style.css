@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-image:url(goraswili.jpg);
+    background-size: 100%;
+    font-size:15px;
+    font-weight:normal;
+    font-family:'Roboto', sans-serif;
+}
+.kart{
+    width:250px;
+    border-radius:50%;
+    box-shadow:20px 11px 20px 6px rgba(175, 131, 245, 0.945) ;
+}
+.info{
+    margin-left:48px;
+    padding-top:19%;
+}
+.dannye{
+    margin-bottom:27px;
+    display:flex;
+}
+@media(max-width:700px){
+    .dannye{
+        text-align:center;
+        display:block;
+    }
+}
+.dannye h1{
+    margin:20px 0 10px;
+}
+.dannye p {
+    color:rgb(247, 102, 83);
+    margin:0;
+    font-style:italic;
+    font-weight:bold;
+    letter-spacing:2px;
+    /* text-decoration:underline;
+       text-decoration:line-through; 
+       text-transform:lowercase, uppercase, capitalize;
+       word-spacing:45px;
+    */
+}
+.status {
+    background:#ffccee;
+    padding:0px 20px 15px 40px;
+    margin:17px 30% 25px 30%;
+   /* border:6px solid rgba(131, 13, 13, 0.822);
+    border-bottom-style:dashed;
+    border-right-width:10px; */
+    border-style:dashed;
+    border-color:#ff33bb;
+    width:320px;
+} 
+.o ul{
+    padding-inline-start:24px;
+    margin-bottom:4px;
+}
+.o a{
+    color:black;
+    text-decoration:none;
+}    
+.o a:hover{
+    text-decoration:underline;
+    border-bottom: 1px solid;
+}
+.o a:active{
+    color:rgba(85, 14, 218, 0.89);
+}
+.prosm{
+    list-style-type:circle;
+}
+.o li{
+    padding-bottom:4px;
+ /* border-bottom:1px solid #ccc;  */
+}
+.container{
+    max-width:60%;
+    margin:auto;
+}
+.bg-blue{
+    background:#c9e7ff;
+}
+.bg-green{
+    background:#cbffd0;
+}
+.bg-red{
+    background:#ffe0e0;
+}
+.tower{
+    padding:7px 20px 10px;
+    /* background:cyan; */
+    margin-bottom:25px;
+    border-radius:24px;
+}
+.tower h3{
+    margin-bottom:25px;
+}
+.tower h2{
+    margin-bottom:10px;
+
+}
+.spisok{
+    padding:1px 17px;
+ /* list-style:none; */
+}
+.spisok li{
+    color:rgb(184, 43, 165);
+    margin-bottom:6px;
+ /* border-bottom:2px solid rgb(6, 6, 109); */
+}
+.table{
+    width:95%;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+.table td{
+    padding-bottom:5px;
+}
+.table td:nth-child(2){
+    color:rgba(247, 128, 43, 0.808);
+}
+/*.table tr:nth-child(even){
+    background:rgba(85, 14, 218, 0.89); 
+}
+.table tr:nth-child(odd){
+    background:rgba(85, 14, 218, 0.89);
+}  */
+.piersp a{
+    color:rgba(9, 86, 88, 0.788);
+    padding-left:14px;
+}
+.piersp{
+    padding-bottom:12px;
+}
+.reet h3{
+    text-align:center;
+}
+.contact label{
+    display:block; font-size:16px; color:coral;
+}
+.contact input,
+.contact textarea{
+    width:100%;
+    box-sizing:border-box;
+    border:none;
+ /* background:transparent; */
+    border-bottom:2px solid rgb(197, 25, 25);
+    color:rgb(127, 27, 209);
+    padding:10px 0 5px;
+    outline-color: rgb(24, 74, 131);
+ /* outline:none; */
+    font-family:inherit;
+}
+.contact textarea{
+    width:30%;
+}
+.dwawo{
+    display:flex;
+    margin-bottom:10px;
+}
+.dwawo > .contact{
+    width:30%;
+    margin-right:50px;
+}
+/*.dwawo > .contact:first-child{
+    margin-right:50px;
+}
+.dwawo > .contact:last-child{
+    margin-right:0;
+}*/
+.swz{
+    background:rgb(247, 255, 132);
+    color:blue;
+    padding:4px 8px;
+    border: 1px solid rgb(251, 255, 11);
+    border-radius:19%;
+    cursor:pointer;
+}
+.swz:hover{
+    opacity:0.6;
+}
+.swaz{
+    position:relative;
+    border:3px solid rgb(7, 49, 3);
+    margin-top:30px;
+    padding:13px;
+    height:270px;
+}
+.box{
+ /* position:absolute; */
+    position:fixed;
+    bottom:40px;
+    right:20px;
+    border-radius:40%;
+    width:50px;
+    height:50px;
+    background:rgb(177, 21, 60);
+}
